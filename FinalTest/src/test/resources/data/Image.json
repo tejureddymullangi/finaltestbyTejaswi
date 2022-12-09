@@ -1,0 +1,17 @@
+{
+
+"Valid" :{
+
+ "Uemail" : "admin@gmail.com",
+"Pw" : "123456",
+"CategoryName1":"Brush"
+
+},
+"InValid" :{
+
+ "Uemail" : "admin@gmail.com",
+"Pw" : "123456",
+"CategoryName1":"345465"
+
+}
+}

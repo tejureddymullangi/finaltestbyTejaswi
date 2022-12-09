@@ -1,0 +1,53 @@
+{
+
+"Valid" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":"WowSale"
+
+},
+"InValid" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":"123344"
+
+},
+"InValidAllCapital" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":"ASDFG"
+
+},
+"InValidBlank" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":"  "
+
+},
+"InValidLowercase" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":"sdfghjk "
+
+},
+"InValidSpecialchar" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":"@#$%^&* "
+
+},
+"InValidSymbols" :{
+
+ "Uemail" : "mainhub@gmail.com",
+"Pw" : "123456",
+"Addco1":",.;'<>"
+
+}
+
+}

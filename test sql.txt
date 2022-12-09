@@ -1,0 +1,58 @@
+SQL Test :
+
+create database finalist;
+use finalist;
+show databases;
+create table Employe(id integer,name varchar(50),salary integer,designation varchar(50));
+insert into Employe values(1,"kate",1000,"player");
+insert into Employe values(2,"mani",600,"garden");
+insert into Employe values(3,"pate",10000,"Teacher");
+insert into Employe values(4,"wate",100,"Student");
+insert into Employe values(5,"myna",10000,"trainer");
+insert into Employe values(6,"ram",50000,"manager");
+select*from Employe;
+
+
+Output:
+Database
+finalist
+information_schema
+mysql
+performance_schema
+sys
+test
+id	name	salary	designation
+1	kate	1000	player
+2	mani	600	garden
+3	pate	10000	Teacher
+4	wate	100	Student
+5	myna	10000	trainer
+6	ram	50000	manager
+
+create database finalist;
+use finalist;
+show databases;
+create table Employe(id integer,name varchar(50),salary integer,designation varchar(50));
+insert into Employe values(1,"kate",1000,"player");
+insert into Employe values(2,"mani",600,"garden");
+insert into Employe values(3,"pate",10000,"Teacher");
+insert into Employe values(4,"wate",100,"Student");
+insert into Employe values(5,"myna",10000,"trainer");
+insert into Employe values(6,"ram",50000,"manager");
+select*from Employe;
+delete from Employe where id=1;
+select*from Employe;
+update Employe set name ="guna"where id=5;
+select*from Employe where id>2&&id=5;
+select * from Employe order by salary asc;
+select * from Employe order by salary=4000 where id=3;
+select* from Employe order by salary asc;
+select*from Employe;
+Output:
+id	name	salary	designation
+1	kate	1000	player
+2     guna	10000	trainer
+3	pate	10000	Teacher
+4	wate	4000	Student
+5	mani  600   garden
+6	ram	50000	manager
